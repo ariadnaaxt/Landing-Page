@@ -9,7 +9,7 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  line-height: 1.625rem;
+  line-height: 2rem;
   color: #86869c;
   background: #fafafa;
 }
@@ -47,8 +47,8 @@ header .text-container {
 
 header h1 {
   color: #28283e;
-  font-size: 2.5rem;
-  line-height: 2.75rem;
+  font-size: 5rem;
+  line-height: 3rem;
   margin-bottom: 1.5rem;
   padding: 0 3.71rem;
 }
@@ -56,8 +56,9 @@ header h1 {
 header p {
   line-height: 1.625rem;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 0 1.5rem;
+  margin-top: 3rem;
 }
 
 header .download,
@@ -114,6 +115,7 @@ footer .download:hover {
   height: 5.25em;
   width: 0.0625rem;
   margin: 0 auto;
+  margin-top:4rem;
   background: rgba(134, 134, 156, 0.25);
 }
 
@@ -125,8 +127,9 @@ footer .download:hover {
   display: inline-block;
   padding: 1rem 1.2rem;
   border-radius: 50%;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.2rem;
 }
 
 .nro1 {
@@ -155,11 +158,11 @@ main .image-grid img {
 }
 
 main .image-grid img:nth-child(odd) {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 main .image-grid img:nth-child(even) {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 
 main h3 {
@@ -174,6 +177,8 @@ main h3 {
 main .text-container {
   padding: 0 1.5rem;
   padding-bottom: 11rem;
+  font-size: 1.5rem;
+  
 }
 
 h2 {
@@ -206,6 +211,7 @@ footer h2 {
 
 footer p {
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 footer .download {
@@ -398,14 +404,14 @@ footer .overlay {
 
 @media (max-width: 57.5rem) {
   header h1 {
-    font-size: 2.5rem;
-    line-height: 2.75rem;
+    font-size: 3rem;
+    line-height: 2.40rem;
   }
 }
 
 @media (max-width: 75rem) {
   footer p {
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
 }
